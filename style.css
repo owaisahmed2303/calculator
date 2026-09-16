@@ -95,17 +95,20 @@ button:active{
 
 }
 
-@media screen and (max-width:768px) {
+@media screen and (max-width:425px) {
 
 .calculator{
-    height: 80vh;
-    width: 90vw;
+    /* height: 80vh; */
+    width: 80vw;
 }
 button{
-    height: 10vh;
-    width: 16vw;
+    height: 8vh;
+    width: 13vw;
+    font-size: 1rem;
 }
-
+#btn-del{
+ font-size: small;
+}
     /* #display{
         font-size: 16px;
     }
